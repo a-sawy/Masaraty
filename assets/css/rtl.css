@@ -1,0 +1,291 @@
+
+/* body {direction:rtl;} */
+
+.overlay{
+    right: 0;
+    left: 0;
+}
+
+.layout{
+    right: 0px;
+    left: 0;
+}
+
+.title.lined::after{
+    right: calc(50% - (76px / 2));
+}
+
+.navbar-nav{
+    margin-left: 100px;
+}
+
+.navbar-brand{
+    margin-right: 20px;
+}
+
+.lang-btn{
+    margin-left: 20px;
+}
+
+@media (min-width: 992px){
+    .navbar-expand-lg .navbar-nav .nav-link{
+        padding-right: 0;
+        padding-left: 42px;
+    }
+
+}
+
+@media (max-width: 1290px){
+    .navbar-nav{
+        margin-left: 10px;
+    }
+
+    .lang-btn{
+        margin-left: 10px;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link{
+        padding-left: 16px;
+    }
+
+}
+
+.carousel-indicators [data-bs-target]{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+@media(max-width: 991px){
+    .social-icon{
+        float: left;
+    }
+
+}
+
+.copyrights{
+    float: right;
+}
+
+.social-icon li{
+    margin-right: 20px;
+}
+
+.author-comp .author-icon{
+    margin-left: 6px;
+}
+
+@media(min-width: 992px){
+    .social-icon{
+        float: right;
+    }
+
+}
+
+.logo-card{
+    left: 0;
+    right: auto;
+    padding-right: 100px;
+    padding-left: 124px;
+    background: linear-gradient(to left #6D4100, #E1B000);
+}
+
+.hidden-overlay{
+    right: 0;
+    left: 0;
+}
+
+.card--overlay{
+    right: 0;
+    left: 0;
+}
+
+.article-image .article-overlay{
+    right: 0;
+    left: 0;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 100% rgba(0, 0, 0, 1) 110%);
+}
+
+.article-image .article-hidden-overlay{
+    right: 0;
+    left: 0;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 100% rgba(203, 167, 8, 1) 100%);
+}
+
+.article-title h4{
+    padding-right: 10px;
+}
+
+.article-desc p{
+    padding-right: 10px;
+}
+
+.owl-carousel .owl-nav button.owl-next{
+    left: -5%;
+}
+
+.owl-carousel .owl-nav button.owl-prev{
+    right: -5%;
+}
+
+.contact-form{
+    padding-left: 42px;
+    padding-right: 42px;
+}
+
+.type--contact-us .container h3{
+    margin-right: 32px;
+}
+
+.contact-us>div:not(:first-child){
+    border-right: 2px solid #1A263A;
+}
+
+.contact--info-card{
+    padding-right: 32px;
+}
+
+.contact--info-card .card-title i{
+    float: right;
+}
+
+.contact--info-card .card-title p{
+    float: right;
+    margin-right: 22px;
+}
+
+.contact--info-card .card-info{
+    padding-right: calc(22px + 21px);
+}
+
+.card-info span:last-child{
+    margin-right: 7px;
+}
+
+.type--cover{
+    background-position: 50% 50%;
+}
+
+.article-controller>p span{
+    margin-right: 12px;
+}
+
+.article-controller .viwes{
+    margin-right: 16px;
+}
+
+.header-desc::after{
+    right: -48px;
+}
+
+.header-avatar img{
+    float: left;
+}
+
+.overview-body{
+    background: radial-gradient(circle, rgba(193, 151, 0, 1) 100% rgba(177, 118, 0, 1) 100%);
+    padding: 82px 60px 64px 124px ;
+}
+
+.overview-layout{
+    right: 0;
+    left: 0;
+}
+
+.overview-card{
+    padding: 84px 38px 52px 28px ;
+}
+
+.overview-card .card-icon{
+    left: 26px;
+}
+
+.overview-card .card-icon i::before{
+    margin-right: 0;
+}
+
+.overview-card .card-title::after{
+    right: 0;
+}
+
+.partner-slogan p::before{
+    right: auto;
+}
+
+.partner-slogan p:after{
+    left: auto;
+}
+
+.box-desc{
+    padding-right: 30px;
+}
+
+.box-desc::before{
+    right: 0;
+}
+
+.location-list li{
+    padding-right: calc(10px + 6px);
+}
+
+.location-list li::before{
+    right: 0;
+}
+
+.vehicle-size i::before{
+    margin-right: 6px;
+}
+
+.passerngers-counter i{
+    float: right;
+}
+
+.passerngers-counter span{
+    float: right;
+}
+
+.input-arrow{
+    left: 20px;
+}
+
+.car-details{
+    margin-right: 24px;
+}
+
+.check-box{
+    left: 18px;
+}
+
+.history-nav{
+    padding-left: 32px;
+    padding-right: 20px;
+}
+
+.order-place .order-details{
+    padding-left: 12px;
+}
+
+.order-details h5{
+    text-align: left;
+}
+
+.order-details p{
+    text-align: left;
+}
+
+.lightpick__day.is-start-date.is-in-range, .lightpick__day.is-end-date.is-in-range.is-flipped, .lightpick__day.is-end-date.is-in-range, .lightpick__day.is-start-date.is-in-range.is-flipped{
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+
+.clocklet-container{
+    left: 0;
+}
+
+.owl-carousel,
+.bx-wrapper { direction: ltr; }
+.owl-carousel .owl-item { direction: rtl; }
+.owl-carousel .owl-nav button.owl-next{
+    left: auto;
+}

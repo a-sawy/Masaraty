@@ -1,0 +1,63 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 10/03/2021 19:32
+  	*/
+
+@font-face {
+  font-family: "Flaticon";
+  src: url("../fonts/Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("../fonts/Flaticon.woff2") format("woff2"),
+       url("../fonts/Flaticon.woff") format("woff"),
+       url("../fonts/Flaticon.ttf") format("truetype"),
+       url("../fonts/Flaticon.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+  font-family: Flaticon;
+        font-size: 20px;
+font-style: normal;
+margin-left: 20px;
+}
+
+.flaticon-online-shop:before { content: "\f100"; }
+.flaticon-delivery-truck:before { content: "\f101"; }
+.flaticon-mail-inbox-app:before { content: "\f102"; }
+.flaticon-telephone:before { content: "\f103"; }
+.flaticon-limousine:before { content: "\f104"; }
+.flaticon-vegetable-box:before { content: "\f105"; }
+.flaticon-hotel:before { content: "\f106"; }
+.flaticon-delivery-truck-1:before { content: "\f107"; }
+.flaticon-web-browser:before { content: "\f108"; }
+.flaticon-groceries:before { content: "\f109"; }
+.flaticon-delivery-box:before { content: "\f10a"; }
+.flaticon-pharmacy:before { content: "\f10b"; }
+.flaticon-share:before { content: "\f10c"; }
+.flaticon-vision:before { content: "\f10d"; }
+.flaticon-flag:before { content: "\f10e"; }
+.flaticon-layers:before { content: "\f10f"; }
+.flaticon-user:before { content: "\f110"; }
+.flaticon-calendar:before { content: "\f111"; }
+.flaticon-car:before { content: "\f112"; }
+.flaticon-driver:before { content: "\f113"; }
+.flaticon-riding-car:before { content: "\f114"; }
+.flaticon-car-driver:before { content: "\f115"; }
+.flaticon-edit:before { content: "\f116"; }
+.flaticon-checked:before { content: "\f117"; }
+.flaticon-beach:before { content: "\f118"; }
+.flaticon-businessman:before { content: "\f119"; }
+.flaticon-instagram:before { content: "\f11a"; }
+.flaticon-facebook:before { content: "\f11b"; }
+.flaticon-team:before { content: "\f11c"; }
+.flaticon-search:before { content: "\f11d"; }
+.flaticon-team-1:before { content: "\f11e"; }
